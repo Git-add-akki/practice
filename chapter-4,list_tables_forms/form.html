@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+
+<body>
+    <div>
+        <h1>travel form of our trip</h1>
+        <form action="form.php">
+            <input type="text" placeholder="enter your name">
+            <label for="sectionida">
+                <input type="radio" value="section a" name="section" id="sectionida"> section A
+            </label>
+            <label for="sectionidb">
+                <input type="radio" value="section b" name="section" id="sectionidb"> section B
+            </label>
+            <label for="sectionidc">
+                <input type="radio" value="section c" name="section" id="sectionidc"> section C
+            </label>
+            <input type="checkbox" id="foodcanteen" class="red" name="canteen">
+            <!-- for=foodcanteen & for=foodcanteen(*) [*=anyalphabet] then u need to click on thecheckbox instead of whole sentence -->
+            <label for="foodcanteen">want canteen card</label>
+            <textarea name="explain" id="explain" cols="30" rows="10"
+                placeholder="explain why u want to join"></textarea>
+            <select name="car" id="car">select your car
+                <option value="no-car">select</option>
+                <option value="thar">thar</option>
+                <option value="pajero">pajero</option>
+                <option value="jeep">jeep</option>
+            </select>
+        </form>
+    </div>
+</body>
+
+</html>
